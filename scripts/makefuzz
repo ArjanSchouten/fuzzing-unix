@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Making fuzz files..."
+
+for i in $(seq 0 10)
+do
+    fuzz -0 -a -s 10 1000 > "fuzz$i"
+done
+
+echo "Fuzz files created"

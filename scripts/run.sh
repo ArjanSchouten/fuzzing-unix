@@ -1,8 +1,8 @@
-#!/bin/bash
+#/bin/bash
 
 echo "Start fuzzing..."
 
 for f in tools/*.sh
 do
-    echo $f
+    . $f
 done
