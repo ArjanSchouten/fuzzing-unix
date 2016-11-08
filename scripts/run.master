@@ -1,0 +1,69 @@
+run.stdin as
+run.stdin bc
+run.stdin cat
+run.stdin col
+run.stdin colcrt
+run.stdin colrm
+run.stdin /lib/cpp
+run.stdin dc
+run.stdin diction
+run.stdin expand
+run.stdin fmt
+run.stdin fold
+run.stdin ftp
+run.stdin graph
+run.stdin grep
+run.stdin grn
+run.stdin head
+run.stdin indent
+run.stdin latex
+run.stdin lex
+run.stdin m4
+run.stdin more
+run.stdin pic
+run.stdin plot
+run.stdin pr
+run.stdin prolog
+run.stdin ptx
+run.stdin rev
+run.stdin sed
+run.stdin sh
+run.stdin soelim
+run.stdin sort
+run.stdin spell
+run.stdin spline
+run.stdin sql
+run.stdin strings
+run.stdin style
+run.stdin sum
+run.stdin tail
+run.stdin tbl
+run.stdin tee /tmp/tee.tmp
+run.stdin telnet
+run.stdin tex
+run.stdin tr a b
+run.stdin troff -t
+run.stdin tsort
+run.stdin ul
+run.stdin uniq
+run.stdin units
+run.stdin vgrind -t
+run.stdin wc
+run.file awk -f
+run.file comm t12
+run.file diff t12
+run.file join t12
+run.file look a
+run.file make -f
+run.file nm
+run.file strip
+run.file yacc
+run.cp - calendar calendar
+run.cp t.c cc
+run.cp t compress -f
+run.cp t.f f77
+run.cp t.c lint
+run.cp t.p pc
+run.cp t split -10
+run.pty csh
+run.pty emacs -nw
