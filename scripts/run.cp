@@ -36,7 +36,7 @@ endif
 
 set TARGET=$1
 shift
-if ( ! `./executable $1` ) then
+if ( ! `executable $1` ) then
      echo $*\: Command not found.
      echo $*\: Command not found. >> $NOTES
      exit 1

@@ -25,7 +25,7 @@ echo ''
 while ( $n <= $total )
      onintr TestNext
      set cmd = `sed -n ${n}p $MASTER`  # Get the nth command from the master 
-     `pwd`/$cmd       		       # file and execute it
+     $cmd       		       # file and execute it
 TestNext:
      set n=`expr $n + 1`               # Increase the line counter
 end
