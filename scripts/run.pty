@@ -15,7 +15,7 @@
 # Testing utilities by piping the input to pty
 #
 
-set TESTS=(tp1 tp2 tp3 tp4 tp5 tp6 tp7 tp8 tp9 tp10 tp11 tp12)
+set TESTS=(tp1 tp2 tp3 tp4 tp5 tp6 tp7 tp8 tp9 tp10 tp11 tp12 tp13 tp14 tp15 tp16)
 set OPTIONS="-sx -d 0.05"
 set DATE=`date | cut -d " " -f -3 | sed -e "s/ /_/g"`
 set NOTES=notes-$DATE
