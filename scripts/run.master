@@ -56,12 +56,8 @@ run.file look a
 run.file make -f
 run.file nm
 run.file strip
-run.file yacc
 run.cp - calendar calendar
 run.cp t.c cc
 run.cp t compress -f
 run.cp t.f f77
-run.cp t.p pc
 run.cp t split -10
-run.pty csh
-run.pty emacs -nw
